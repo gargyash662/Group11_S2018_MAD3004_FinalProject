@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D3FDA43221094EE30058E77C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA43121094EE30058E77C /* main.swift */; };
+		D3FDA43A21094F370058E77C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA43921094F370058E77C /* Vehicle.swift */; };
+		D3FDA43C210950710058E77C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA43B210950710058E77C /* Car.swift */; };
+		D3FDA43E210951A60058E77C /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA43D210951A60058E77C /* Motorcycle.swift */; };
+		D3FDA440210956040058E77C /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA43F210956040058E77C /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		D3FDA42E21094EE30058E77C /* Group11_S2018_MAD3004_FinalProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group11_S2018_MAD3004_FinalProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FDA43121094EE30058E77C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D3FDA43921094F370058E77C /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		D3FDA43B210950710058E77C /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		D3FDA43D210951A60058E77C /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		D3FDA43F210956040058E77C /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,21 @@
 		D3FDA43021094EE30058E77C /* Group11_S2018_MAD3004_FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				D3FDA43821094EFF0058E77C /* Classes */,
 				D3FDA43121094EE30058E77C /* main.swift */,
 			);
 			path = Group11_S2018_MAD3004_FinalProject;
+			sourceTree = "<group>";
+		};
+		D3FDA43821094EFF0058E77C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D3FDA43921094F370058E77C /* Vehicle.swift */,
+				D3FDA43B210950710058E77C /* Car.swift */,
+				D3FDA43D210951A60058E77C /* Motorcycle.swift */,
+				D3FDA43F210956040058E77C /* Employee.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FDA43E210951A60058E77C /* Motorcycle.swift in Sources */,
+				D3FDA43A21094F370058E77C /* Vehicle.swift in Sources */,
 				D3FDA43221094EE30058E77C /* main.swift in Sources */,
+				D3FDA440210956040058E77C /* Employee.swift in Sources */,
+				D3FDA43C210950710058E77C /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

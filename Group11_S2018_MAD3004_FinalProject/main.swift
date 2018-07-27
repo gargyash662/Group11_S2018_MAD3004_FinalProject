@@ -10,3 +10,7 @@ import Foundation
 
 print("Hello, World!")
 
+var v1 = vehicle(make: "honda", plate: "cewa123")
+
+
+

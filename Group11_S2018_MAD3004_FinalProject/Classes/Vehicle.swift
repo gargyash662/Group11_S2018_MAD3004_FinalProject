@@ -8,16 +8,27 @@
 
 import Foundation
 
-class vehicle{
+class vehicle
+{
+    
+    
+  //  var vehicleInfo: String!
+    
     var make: String!
     var plate: String!
      
     init(make: String, plate: String) {
         
+        //self.vehicleInfo = vehicleInfo
         self.make = make
         self.plate = plate
         
     }
 }
+
+
+    
+
+
 
 //hello

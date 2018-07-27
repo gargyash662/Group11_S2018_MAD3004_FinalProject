@@ -14,15 +14,23 @@ class car : vehicle
     var year : Int!
     var colour : String!
     
-   override init(make: String, plate: String , companyname:String, year:Int, colour: String)
+    init(make: String, plate: String , companyname:String, year:Int, colour: String)
     {
-       
+        super.init( make: make, plate: plate)
         self.companyname = companyname
         self.year = year
         self.colour = colour
     }
     
+    
+}
+extension car : IDisplay
+{
     func display()  {
         print("Car details \(companyname) \(year) \(colour) \(make) \(plate)")
     }
 }
+
+
+
+// yash garg

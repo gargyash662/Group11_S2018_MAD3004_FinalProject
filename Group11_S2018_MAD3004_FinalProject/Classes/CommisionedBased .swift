@@ -25,7 +25,7 @@ class commisionedbase : parttime{
         return commisionrate
 }
     override func display() {
-        
+        print("Commissoned Based Employee \n Name: \(Name) \n Dob: \(birthday) \n Pay Rate :\(rate) \n Hours worked: \(hours) \n Commissionperc: \(commissionperc) \n Salary: \(commisionrate)")
     }
     
 }

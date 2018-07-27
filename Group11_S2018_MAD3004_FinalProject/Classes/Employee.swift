@@ -13,6 +13,7 @@ class employee: IDisplay{
     var Emp_Id:String!
     var Name: String!
     var birthday: String!
+    var vehicle: vehicle!
     
     init(Name: String, birthday: String){
     
@@ -40,7 +41,7 @@ class employee: IDisplay{
     
     
     func display() {
-        print("Employee details \(Name!) \(birthday!)")
+        print("Employee details \(Name!) \(birthday!) \(vehicle!)")
     }
     
 }

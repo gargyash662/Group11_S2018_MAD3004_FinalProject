@@ -27,6 +27,6 @@ class parttime : employee
     }
     
    override func display(){
-        print("Part time employee salary \(Name)  \(birthday) \(rate) \(hours) \(Parttimesalary)")
+    print("Part time employee salary \n Name: \(Name) \n Dob: \(birthday) \n Pay Rate :\(rate) \n Hours worked: \(hours) \n Salary: \(Parttimesalary)")
     }
 }

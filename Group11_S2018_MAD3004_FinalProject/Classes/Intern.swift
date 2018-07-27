@@ -21,6 +21,6 @@ class intern: employee {
     }
     
   override  func  display() {
-        print("Inter details \(schoolname!) \(Name!) \(birthday!)")
+    print("Inter details \n Name: \(Name!) School Name: \(schoolname!) \n D.O.B \(birthday!)")
     }
 }

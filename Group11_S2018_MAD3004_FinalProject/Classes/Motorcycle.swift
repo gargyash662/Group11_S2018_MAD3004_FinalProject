@@ -14,13 +14,18 @@ class motorcycle: vehicle
     var cc: Int!
     var milaege: Double!
     
-    override init(make: String, plate: String, cc:Int, milaege:Double)
+     init(make: String, plate: String, cc:Int, milaege:Double)
     {
+        super.init( make: make, plate: plate)
         self.cc = cc
         
         self.milaege=milaege
     }
+    
+}
+
+extension motorcycle : IDisplay
+{
     func display()  {
-        print("Motor-Cycle \(make) \(plate) \(milaege) \(cc) ")
-    }
+        print("Motor-Cycle \(make) \(plate) \(milaege) \(cc) ")    }
 }

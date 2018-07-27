@@ -8,7 +8,8 @@
 
 import Foundation
 
-class commisionedbase : parttime{
+class commisionedbase : parttime
+    {
     var commissionperc : Float!
     var commisionrate: Float!
     init(commissionperc: Float, commisionrate: Float, Name: String, birthday: String,rate: Float, hours: Float)
@@ -23,8 +24,9 @@ class commisionedbase : parttime{
     {
         commisionrate = (rate * hours) + ((commissionperc / 100 ) * rate * hours)
         return commisionrate
-}
-    override func display() {
+     }
+    override func display()
+    {
         print("Commissoned Based Employee \n Name: \(Name) \n Dob: \(birthday) \n Pay Rate :\(rate) \n Hours worked: \(hours) \n Commissionperc: \(commissionperc) \n Salary: \(commisionrate)")
     }
     

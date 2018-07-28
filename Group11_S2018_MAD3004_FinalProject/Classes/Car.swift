@@ -27,7 +27,7 @@ class car : vehicle
 extension car : IDisplay
 {
     func display()  {
-        print("Car details \(companyname) \(year) \(colour) \(make) \(plate)")
+        print("Car details \nMake: \(companyname!) \nManufactureyear: \(year!) \nColour: \(colour!) \nMake: \(make!) \nPlate: \(plate!)")
     }
 }
 

@@ -14,10 +14,13 @@ class parttime : employee
     var hours : Float!
     var Parttimesalary: Float!
     
-    init(Name: String, birthday: String, rate: Float, hours: Float) {
+    init(Name: String, birthday: String, rate: Float, hours: Float)
+    
+    {
         super.init(Name: Name, birthday: birthday)
         self.hours = hours
         self.rate = rate
+        calparttimeearning(rate: rate, hours: hours)
     }
     
     func calparttimeearning (rate: Float, hours: Float) -> Float
@@ -26,7 +29,8 @@ class parttime : employee
         return Parttimesalary
     }
     
-   override func display(){
-    print("Part time employee salary \n Name: \(Name) \n Dob: \(birthday) \n Pay Rate :\(rate) \n Hours worked: \(hours) \n Salary: \(Parttimesalary)")
+   override func display()
+   {
+    print("Part time employee  \n Name: \(Name!) \n Dob: \(birthday!) \n Pay Rate :\(rate!) \n Hours worked: \(hours!) \n Salary: \(Parttimesalary!)")
     }
 }

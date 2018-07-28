@@ -17,6 +17,7 @@
 		D3FDA446210A919E0058E77C /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA445210A919E0058E77C /* Intern.swift */; };
 		D3FDA448210A92AE0058E77C /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA447210A92AE0058E77C /* PartTime.swift */; };
 		D3FDA44A210A940E0058E77C /* CommisionedBased .swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA449210A940E0058E77C /* CommisionedBased .swift */; };
+		D3FDA450210BE8D70058E77C /* Fixedbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA44F210BE8D70058E77C /* Fixedbase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		D3FDA445210A919E0058E77C /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
 		D3FDA447210A92AE0058E77C /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
 		D3FDA449210A940E0058E77C /* CommisionedBased .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommisionedBased .swift"; sourceTree = "<group>"; };
+		D3FDA44F210BE8D70058E77C /* Fixedbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixedbase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				D3FDA445210A919E0058E77C /* Intern.swift */,
 				D3FDA447210A92AE0058E77C /* PartTime.swift */,
 				D3FDA449210A940E0058E77C /* CommisionedBased .swift */,
+				D3FDA44F210BE8D70058E77C /* Fixedbase.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				D3FDA44A210A940E0058E77C /* CommisionedBased .swift in Sources */,
 				D3FDA440210956040058E77C /* Employee.swift in Sources */,
 				D3FDA444210A88E50058E77C /* FullTime_Employee.swift in Sources */,
+				D3FDA450210BE8D70058E77C /* Fixedbase.swift in Sources */,
 				D3FDA442210A7DCF0058E77C /* IDisplay.swift in Sources */,
 				D3FDA43C210950710058E77C /* Car.swift in Sources */,
 				D3FDA446210A919E0058E77C /* Intern.swift in Sources */,

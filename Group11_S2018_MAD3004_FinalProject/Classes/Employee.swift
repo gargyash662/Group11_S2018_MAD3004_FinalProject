@@ -41,7 +41,7 @@ class employee: IDisplay{
     
     
     func display() {
-        print("Employee details \(Name!) \(birthday!) \(vehicle!)")
+        print("Employee details Name: \(Name!) D.O.B \(birthday!) Vehicle \(vehicle!)")
     }
     
 }

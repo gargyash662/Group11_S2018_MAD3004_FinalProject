@@ -14,9 +14,9 @@ class intern: employee {
     
     init(schoolname: String, Name: String, birthday: String)
     {
-        super.init(Name: Name, birthday: birthday)
+        super.init(Name: Name, birthday: birthday, vehicle: [])
         self.schoolname = schoolname
-       
+       self.vehicle = vehicle
         
     }
     

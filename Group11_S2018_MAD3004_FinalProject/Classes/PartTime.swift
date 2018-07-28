@@ -17,10 +17,11 @@ class parttime : employee
     init(Name: String, birthday: String, rate: Float, hours: Float)
     
     {
-        super.init(Name: Name, birthday: birthday)
+        super.init(Name: Name, birthday: birthday, vehicle: [])
         self.hours = hours
         self.rate = rate
-        calparttimeearning(rate: rate, hours: hours)
+        self.vehicle = vehicle
+        //calparttimeearning(rate: rate, hours: hours)
     }
     
     func calparttimeearning (rate: Float, hours: Float) -> Float

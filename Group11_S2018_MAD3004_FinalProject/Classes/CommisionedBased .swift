@@ -17,6 +17,7 @@ class commisionedbase : parttime
         super.init(Name: Name, birthday: birthday,rate: rate, hours: hours)
         self.commissionperc = commissionperc
         self.commisionrate = commisionrate
+        
     }
     
     

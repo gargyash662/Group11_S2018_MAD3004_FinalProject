@@ -15,7 +15,7 @@ class Fixedbased : employee
     var Fixedsalary: Float!
     
     init(Name: String, birthday: String, rate: Float, hoursworked: Float) {
-        super.init(Name: Name, birthday: birthday)
+        super.init(Name: Name, birthday: birthday, vehicle: [])
         
         self.rate = rate
         self.hoursworked = hoursworked

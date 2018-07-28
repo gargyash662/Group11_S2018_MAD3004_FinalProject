@@ -8,7 +8,7 @@
 
 import Foundation
 
-class vehicle
+class vehicle : IDisplay
 {
     
     
@@ -24,8 +24,11 @@ class vehicle
         self.plate = plate
         
     }
+    
+    func display()  {
+        print("Vehicle")
+    }
 }
-
 
     
 

@@ -23,7 +23,7 @@ class motorcycle: vehicle
     }
     
     override func display()  {
-        print("Motor-Cycle \(make) \(plate) \(milaege) \(cc) ")    }
+        print(" Has a Motor-Cycle \nMake:\(make!) \nPlate Number:\(plate!) \n Milaege:\(milaege!)\n CC: \(cc!) ")    }
 }
 
 

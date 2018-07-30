@@ -29,7 +29,7 @@ class employee: IDisplay{
         let now = Date()
         let calcAge = calendar.components(.year, from: birthdayDate!, to: now, options: [])
         let age = calcAge.year
-        return age!
+        
     }
     
 //    func enterEmpDetails(){
@@ -42,7 +42,7 @@ class employee: IDisplay{
     
     
     func display() {
-        print("Employee details Name: \(Name!) D.O.B \(birthday!) \(vehicle)")
+        print("Employee details Name: \(Name!) D.O.B \(birthday!) \(vehicle) \n()")
     }
     
 }

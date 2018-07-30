@@ -14,20 +14,25 @@ class Fixedbased : employee
     var fixedamount : Float!
     var Fixedsalary: Float!
     
-    init(Name: String, birthday: String, rate: Float, hoursworked: Float) {
-        super.init(Name: Name, birthday: birthday, vehicle: [])
+    init(Name: String, birthday: String, rate: Float, hoursworked: Float,vehicle:[vehicle])
+    {
+        super.init(Name: Name, birthday: birthday, vehicle: [] )
         
         self.rate = rate
         self.hoursworked = hoursworked
+        self.vehicle = vehicle
+        
+        calfixedearning(rate: rate, hoursworked: hoursworked, fixedamount: fixedamount)
     }
     
-    func calfixedearning (rate: Float, hours: Float , fixedamount: Float) -> Float
+    func calfixedearning (rate: Float, hoursworked: Float , fixedamount: Float) -> Float
     {
-        Fixedsalary =  (rate * hours) + fixedamount
+        Fixedsalary =  (rate * hoursworked) + fixedamount
         return Fixedsalary
     }
     
     override func display(){
         print("Fixed Base Employee \n Name: \(Name)  \nD.O.B \(birthday) \nRate: \(rate) \nHours\(hoursworked) \nFixedSalary \(Fixedsalary)")
+         vehicle.forEach({$0.display()})
     }
 }

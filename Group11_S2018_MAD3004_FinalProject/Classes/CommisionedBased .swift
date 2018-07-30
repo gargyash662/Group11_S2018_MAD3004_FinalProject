@@ -12,12 +12,13 @@ class commisionedbase : parttime
     {
     var commissionperc : Float!
     var commisionrate: Float!
-    init(commissionperc: Float, commisionrate: Float, Name: String, birthday: String,rate: Float, hours: Float)
+    init(commissionperc: Float, commisionrate: Float, Name: String, birthday: String,rate: Float, hours: Float ,vehicle:[vehicle])
     {
         super.init(Name: Name, birthday: birthday,rate: rate, hours: hours)
         self.commissionperc = commissionperc
         self.commisionrate = commisionrate
-        
+        self.vehicle = vehicle
+        commisionsalary(commissionperc: commissionperc)
     }
     
     
@@ -29,6 +30,7 @@ class commisionedbase : parttime
     override func display()
     {
         print("Commissoned Based Employee \n Name: \(Name) \n Dob: \(birthday) \n Pay Rate :\(rate) \n Hours worked: \(hours) \n Commissionperc: \(commissionperc) \n Salary: \(commisionrate)")
+         vehicle.forEach({$0.display()})
     }
     
 }

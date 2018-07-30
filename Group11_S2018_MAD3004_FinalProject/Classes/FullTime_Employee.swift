@@ -23,9 +23,8 @@ class fulltime : employee
         self.bonus = bonus
        // self.Totalsalary = Totalsalary
         self.vehicle = vehicle
-
         calcearning(salary: salary, bonus: bonus)
-
+        calcAge(birthday: birthday)
     }
     
     
@@ -38,7 +37,7 @@ class fulltime : employee
     }
     
   override  func display()  {
-    print("Full time Employee details \n Name: \(Name!) \n  D.O.B: \(birthday!) \n Salary:\(salary!) \n Bonus:\(bonus!) \n TotalSalary: \(Totalsalary!)")
+    print("Full time Employee details\n Name: \(Name!)\nD.O.B:\(birthday!)\n Salary:\(salary!)\n Bonus:\(bonus!)\n TotalSalary:\(Totalsalary!) ")
     vehicle.forEach({$0.display()})
     
     

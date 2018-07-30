@@ -20,11 +20,15 @@ var v4 = car(make: "Duster", plate: "Cg07", companyname: "Renault", year: 2018, 
 //var e2 = parttime(Name: "allan ", birthday: "13/07/1990", rate: 4.6, hours: 5.0)
 //var e3 = commisionedbase(commissionperc: 5, commisionrate: 23, Name: "john", birthday: "12/03/1997", rate: 34.5, hours: 5.0)
 
+var e7 = intern(schoolname: "lambton colege", Name: "john day", birthday: "12/07/1998", vehicle: [v5])
+
 
 //var e5 = fulltime(salary: 3.4, bonus: 2.7, Name: "jainam", birthday: "12/3/1995", vehicle: v1)
 var e6 = fulltime(salary: 10000.0, bonus: 100.0, Name: "abc", birthday: "12/03/2010", vehicle: [v1])
 e6.display()
-
+let line = String(repeating: "*", count: 50)
+print(line)
+e7.display()
 
 //var e4 = intern(schoolname: "lambton", Name: "tripleh", birthday: "12/08/1995")
 //var e2 = fulltime(salary: <#T##Float#>, bonus: <#T##Float#>, Name: <#T##String#>, birthday: <#T##String#>)
@@ -34,8 +38,8 @@ e6.display()
 //v1.display()
 
 
-let line = String(repeating: "*", count: 50)
-print(line)
+//let line = String(repeating: "*", count: 50)
+//print(line)
 //print("test \n test1")
 
 //e2.vehicle = v2

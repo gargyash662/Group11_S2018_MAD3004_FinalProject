@@ -16,41 +16,33 @@ var v3 = motorcycle(make: "Yamaha", plate: "Mh30", cc: 180, milaege: 40)
 var v5 = motorcycle(make: "Gixxer", plate: "Ch124", cc: 200, milaege: 55)
 var v4 = car(make: "Duster", plate: "Cg07", companyname: "Renault", year: 2018, colour: "White")
 
-//var e1 = fulltime(salary: 12.8, bonus: 499.9, Name: "yash", birthday: "12/7/976", vehicle: <#vehicle#>)
-//var e2 = parttime(Name: "allan ", birthday: "13/07/1990", rate: 4.6, hours: 5.0)
-//var e3 = commisionedbase(commissionperc: 5, commisionrate: 23, Name: "john", birthday: "12/03/1997", rate: 34.5, hours: 5.0)
+
 
 var e7 = intern(schoolname: "lambton colege", Name: "john day", birthday: "12/07/1998", vehicle: [v5])
-
-
-//var e5 = fulltime(salary: 3.4, bonus: 2.7, Name: "jainam", birthday: "12/3/1995", vehicle: v1)
-var e6 = fulltime(salary: 10000.0, bonus: 100.0, Name: "abc", birthday: "12/03/2010", vehicle: [v1])
-e6.display()
+e7.display()
 let line = String(repeating: "*", count: 50)
 print(line)
-e7.display()
 
-//var e4 = intern(schoolname: "lambton", Name: "tripleh", birthday: "12/08/1995")
-//var e2 = fulltime(salary: <#T##Float#>, bonus: <#T##Float#>, Name: <#T##String#>, birthday: <#T##String#>)
-//e1.vehicle = v1
-
-//e1.display()
-//v1.display()
-
-
+var e6 = fulltime(salary: 10000.0, bonus: 100.0, Name: "abc", birthday: "12/03/1995", vehicle: [v1])
+e6.display()
 //let line = String(repeating: "*", count: 50)
-//print(line)
-//print("test \n test1")
-
-//e2.vehicle = v2
-//
-//e2.display()
-//v2.display()
-
-//e5.display()
+print(line)
 
 
-////////////////////////////////
+var e8 = parttime(Name: "yash garg", birthday: "03/13/1995", rate: 14, hours: 8)
+e8.display()
+//let line = String(repeating: "*", count: 50)
+print(line)
+
+var e9 = Fixedbased(Name: "Ajay", birthday: "05/29/1969", rate: 23, fixedamount: 300, hoursworked: 8, vehicle: [v4])
+e9.display()
+print(line)
+
+var e10 = commisionedbase(commissionperc: 3.0, commisionrate: 3.6, Name: "Rajan", birthday: "12/05/1989", rate: 80, hours: 7.5, vehicle: [v2])
+e10.display()
+print(line)
+
+
 
 
 

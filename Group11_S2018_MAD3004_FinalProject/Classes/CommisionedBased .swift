@@ -19,6 +19,8 @@ class commisionedbase : parttime
         self.commisionrate = commisionrate
         self.vehicle = vehicle
         commisionsalary(commissionperc: commissionperc)
+        calcAge(birthday: birthday)
+        
     }
     
     
@@ -29,7 +31,7 @@ class commisionedbase : parttime
      }
     override func display()
     {
-        print("Commissoned Based Employee \n Name: \(Name) \n Dob: \(birthday) \n Pay Rate :\(rate) \n Hours worked: \(hours) \n Commissionperc: \(commissionperc) \n Salary: \(commisionrate)")
+        print("Commissoned Based Employee \nName: \(Name!)\nDob: \(birthday!)\nAge: \(calcAge(birthday: birthday))\nPay Rat :\(rate)\nHours worked: \(hours!)\nCommissionperc:\(commissionperc!) \nSalary: \(commisionrate!)")
          vehicle.forEach({$0.display()})
     }
     

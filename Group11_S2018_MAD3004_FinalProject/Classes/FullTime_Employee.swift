@@ -37,7 +37,7 @@ class fulltime : employee
     }
     
   override  func display()  {
-    print("Full time Employee details\n Name: \(Name!)\nD.O.B:\(birthday!)\n Salary:\(salary!)\n Bonus:\(bonus!)\n TotalSalary:\(Totalsalary!) ")
+    print("Full time Employee details\nName: \(Name!)\nD.O.B:\(birthday!)\nSalary:\(salary!)\nBonus:\(bonus!)\nTotalSalary:\(Totalsalary!)\nAge:\(calcAge(birthday: birthday)) ")
     vehicle.forEach({$0.display()})
     
     

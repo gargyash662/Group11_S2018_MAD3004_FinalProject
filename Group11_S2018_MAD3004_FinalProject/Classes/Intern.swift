@@ -17,11 +17,12 @@ class intern: employee {
         super.init(Name: Name, birthday: birthday, vehicle: [])
         self.schoolname = schoolname
        self.vehicle = vehicle
+        calcAge(birthday: birthday)
         
     }
     
   override  func  display() {
-    print("Inter details \n Name: \(Name!) \n  School Name: \(schoolname!) \n D.O.B \(birthday!)")
+    print("Inter details \nName: \(Name!) \nAge: \(calcAge(birthday: birthday))\nSchool Name: \(schoolname!) \nD.O.B \(birthday!)")
     vehicle.forEach({$0.display()})
     }
 }

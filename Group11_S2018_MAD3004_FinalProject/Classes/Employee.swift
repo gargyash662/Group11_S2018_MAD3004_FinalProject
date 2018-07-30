@@ -20,6 +20,7 @@ class employee: IDisplay{
         self.Name = Name
         self.birthday = birthday
         self.vehicle = vehicle
+        calcAge(birthday: birthday)
     }
     func calcAge(birthday: String) -> Int {
         let dateFormater = DateFormatter()
@@ -29,20 +30,11 @@ class employee: IDisplay{
         let now = Date()
         let calcAge = calendar.components(.year, from: birthdayDate!, to: now, options: [])
         let age = calcAge.year
-        
+        return age!
     }
     
-//    func enterEmpDetails(){
-//        print("Emp ID:")
-//        Emp_Id = String(readLine()!)
-//        print("Emp Name:")
-//        Name = String(readLine()!)
-//    }
-//    
-    
-    
     func display() {
-        print("Employee details Name: \(Name!) D.O.B \(birthday!) \(vehicle) \n()")
+        print("Employee details Name: \(Name!) D.O.B \(birthday!) \(calcAge(birthday: birthday)) \(vehicle) \n()")
     }
     
 }

@@ -21,7 +21,10 @@ class parttime : employee
         self.hours = hours
         self.rate = rate
         self.vehicle = vehicle
-        //calparttimeearning(rate: rate, hours: hours)
+        calparttimeearning(rate: rate, hours: hours)
+        calcAge(birthday: birthday)
+        
+        
     }
     
     func calparttimeearning (rate: Float, hours: Float) -> Float
@@ -32,6 +35,6 @@ class parttime : employee
     
    override func display()
    {
-    print("Part time employee  \n Name: \(Name!) \n Dob: \(birthday!) \n Pay Rate :\(rate!) \n Hours worked: \(hours!) \n Salary: \(Parttimesalary!)")
+    print("Part time employee\nName: \(Name!)\nDob: \(birthday!)\nAge: \(calcAge(birthday: birthday))\nPay Rate :\(rate!)\nHours worked: \(hours!)\nSalary: \(Parttimesalary!)")
     }
 }

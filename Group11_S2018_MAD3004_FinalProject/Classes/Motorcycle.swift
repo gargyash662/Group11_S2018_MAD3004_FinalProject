@@ -13,17 +13,19 @@ class motorcycle: vehicle
 {
     var cc: Int!
     var milaege: Double!
+    var insurance : Double!
     
-     init(make: String, plate: String, cc:Int, milaege:Double)
+    init(make: String, plate: String, cc:Int, milaege:Double, insurance:Double)
     {
         super.init( make: make, plate: plate)
         self.cc = cc
         
         self.milaege=milaege
+        self.insurance = insurance
     }
     
     override func display()  {
-        print("Has a Motor-Cycle \nMake:\(make!) \nPlate Number:\(plate!) \nMilaege:\(milaege!)\nCC: \(cc!) ")    }
+        print("Has a Motor-Cycle \nMake:\(make!) \nPlate Number:\(plate!) \nMilaege:\(milaege!)\nCC: \(cc!)\nInsurance: \(insurance.asCurrency) ")    }
 }
 
 

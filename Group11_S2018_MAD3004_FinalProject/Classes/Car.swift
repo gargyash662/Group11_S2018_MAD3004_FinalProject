@@ -13,17 +13,19 @@ class car : vehicle
     var companyname : String!
     var year : Int!
     var colour : String!
+    var price : Double!
     
-    init(make: String, plate: String , companyname:String, year:Int, colour: String)
+    init(make: String, plate: String , companyname:String, year:Int, colour: String,price: Double)
     {
         super.init( make: make, plate: plate)
         self.companyname = companyname
         self.year = year
         self.colour = colour
+        self.price = price
     }
     
     override func display()  {
-        print("Car details \nMake: \(companyname!) \nManufactureyear: \(year!) \nColour: \(colour!) \nMake: \(make!) \nPlate: \(plate!)")
+        print("Car details \nMake: \(companyname!) \nManufactureyear: \(year!) \nColour: \(colour!) \nMake: \(make!) \nPlate: \(plate!) \nPrice:\(price.asCurrency)")
     }
 }
 

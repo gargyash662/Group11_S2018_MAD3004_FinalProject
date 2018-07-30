@@ -9,11 +9,12 @@
 import Foundation
 
 print("----------Group 11------------ ")
-var v1 = car(make: "Civic", plate: "cdef345", companyname: "Honda", year: 2016, colour: "Black")
-var v2 = car(make: "Suv", plate: "fdhk215", companyname: "Kia", year: 2015, colour: "Blue")
+var v1 = car(make: "Civic", plate: "cdef345", companyname: "Honda", year: 2016, colour: "Black" , price: 1200.00)
+var v2 = car(make: "Suv", plate: "fdhk215", companyname: "Kia", year: 2015, colour: "Blue", price: 1300)
 var v3 = motorcycle(make: "Yamaha", plate: "Mh30", cc: 180, milaege: 40)
 var v5 = motorcycle(make: "Gixxer", plate: "Ch124", cc: 200, milaege: 55)
-var v4 = car(make: "Duster", plate: "Cg07", companyname: "Renault", year: 2018, colour: "White")
+var v4 = car(make: "Duster", plate: "Cg07", companyname: "Renault", year: 2018, colour: "White", price: 1900)
+
 
 
 
@@ -40,6 +41,12 @@ print(line)
 var e5 = commisionedbase(commissionperc: 3.0, commisionrate: 3.6, Name: "Rajan", birthday: "12/05/1989", rate: 80, hours: 7.5, vehicle: [v2])
 e5.display()
 print(line)
+
+
+
+
+
+
 
 
 

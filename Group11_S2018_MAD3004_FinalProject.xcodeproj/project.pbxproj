@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32C2CBE210FCA41008089AC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C2CBD210FCA41008089AC /* Extension.swift */; };
 		D3FDA43221094EE30058E77C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA43121094EE30058E77C /* main.swift */; };
 		D3FDA43A21094F370058E77C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA43921094F370058E77C /* Vehicle.swift */; };
 		D3FDA43C210950710058E77C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA43B210950710058E77C /* Car.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D32C2CBD210FCA41008089AC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		D3FDA42E21094EE30058E77C /* Group11_S2018_MAD3004_FinalProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group11_S2018_MAD3004_FinalProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FDA43121094EE30058E77C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D3FDA43921094F370058E77C /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				D3FDA447210A92AE0058E77C /* PartTime.swift */,
 				D3FDA449210A940E0058E77C /* CommisionedBased .swift */,
 				D3FDA44F210BE8D70058E77C /* Fixedbase.swift */,
+				D32C2CBD210FCA41008089AC /* Extension.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				D3FDA43E210951A60058E77C /* Motorcycle.swift in Sources */,
 				D3FDA43A21094F370058E77C /* Vehicle.swift in Sources */,
 				D3FDA43221094EE30058E77C /* main.swift in Sources */,
+				D32C2CBE210FCA41008089AC /* Extension.swift in Sources */,
 				D3FDA448210A92AE0058E77C /* PartTime.swift in Sources */,
 				D3FDA44A210A940E0058E77C /* CommisionedBased .swift in Sources */,
 				D3FDA440210956040058E77C /* Employee.swift in Sources */,
